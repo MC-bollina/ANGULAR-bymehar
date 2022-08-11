@@ -1,15 +1,37 @@
-h1{
-    color: red;
-    font-size: 50px;
-    background-color:dodgerblue;
-    text-align:center;
-
+h1 {
+  color: #199319;
+  font-size: 50px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid red;
 }
 .fcc-btn {
   background-color: #199319;
   color: white;
   padding: 10px 15px;
   text-decoration: none;
-  text-align:center;
-  
+  text-align: center;
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 5px solid red
+}
+.button {
+  background-color: #199319;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 5px solid red
 }

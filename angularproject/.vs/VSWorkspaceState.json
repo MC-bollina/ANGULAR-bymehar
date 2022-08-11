@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\generating-application"
+    "\\src\\app"
   ],
+  "SelectedNode": "\\src\\app\\assets",
   "PreviewInSolutionExplorer": false
 }

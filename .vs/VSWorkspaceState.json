@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\angularproject",
+    "\\angularproject\\src",
+    "\\angularproject\\src\\app"
   ],
+  "SelectedNode": "\\angularproject",
   "PreviewInSolutionExplorer": false
 }
