@@ -2,26 +2,22 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { GeneratingApplicationComponent } from './generating-application/generating-application.component';
-import { ComponentComponent } from './component/component.component';
-import { AppRoutingModule } from './app-routing.module';
-import { RouterModule ,Routes } from '@angular/router';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { UnderstandingbasicsComponent } from './understandingbasics/understandingbasics.component';
 
 
-const routes: Routes = []
 
 @NgModule({
   declarations: [
     AppComponent,
-    GeneratingApplicationComponent,
-    ComponentComponent
+    UnderstandingbasicsComponent
   ],
  
 
   imports: [
     BrowserModule,
-    [RouterModule.forRoot( routes )],
-    AppRoutingModule
+    AppRoutingModule,
+    routingComponents
   ],
   
   providers: [],
