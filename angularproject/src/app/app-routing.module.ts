@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { Routes, RouterModule } from '@angular/router';
 import { UnderstandingbasicsComponent } from './understandingbasics/understandingbasics.component';
 
@@ -13,9 +13,9 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
-    UnderstandingbasicsComponent,
-    [RouterModule.forRoot(routes)]
+    [RouterModule.forRoot(routes)],
+    UnderstandingbasicsComponent
+    
   ],
   exports: [RouterModule]
 })
