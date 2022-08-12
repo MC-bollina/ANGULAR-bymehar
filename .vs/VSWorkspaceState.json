@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\angularproject",
+    "\\angularproject\\.angular",
     "\\angularproject\\src",
-    "\\angularproject\\src\\app"
+    "\\angularproject\\src\\app",
+    "\\angularproject\\src\\app\\understandingbasics"
   ],
-  "SelectedNode": "\\angularproject",
+  "SelectedNode": "\\angularproject\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }

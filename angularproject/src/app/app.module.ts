@@ -2,21 +2,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { BasicsModule } from './basics/basics.module';
 
+
+import { NextComponent } from './next/next.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-   routingComponents
+    NextComponent,
+   
  ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    routingComponents
+    BasicsModule,
+    
   ],
   
   providers: [],
